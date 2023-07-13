@@ -32,6 +32,12 @@ Part  Name                                   Quantity  Filenames
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------
+PRINTER CONFIGURATION
+
+Detailed instructions for printing each part are included in the .scad file for each part.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
 MANUFACTURING INSTRUCTIONS
 
 Detailed instructions for manufacturing each part are included in the .scad file for each part.
