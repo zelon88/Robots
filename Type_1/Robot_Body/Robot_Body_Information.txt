@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------
+PROJECT INFORMATION
+
+NAME:  Robot Body
+REVISION:  A1
+START DATE:  7/4/2023
+CURRENT VERSION DATE:  7/12/2023
+LICENSE:  GPLv3
+AUTHOR:  Justin Grimes (@zelon88)
+DESCRIPTION:  A body for tracked robot.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+PART INFORMATION
+
+Part  Name                                   Quantity  Filenames
+001   Side Rear Section                      2         Robot_Body_001.scad / .stl
+002   Side Middle Section                    2         Robot_Body_002.scad / .stl
+003   Side Front Section                     2         Robot_Body_003.scad / .stl
+004   Upper Side Rear Right Section          1         Robot_Body_004.scad / .stl
+005   Upper Side Middle Rear Right Section   1         Robot_Body_005.scad / .stl
+006   Upper Side Middle Front Right Section  1         Robot_Body_006.scad / .stl
+007   Upper Side Front Right Section         1         Robot_Body_007.scad / .stl
+008   Fastener Half                          0         Robot_Body_008.scad / .stl
+009   45 Degree Fastener                     ?         Robot_Body_009.scad / .stl
+010   Straight Fastener                      ?         Robot_Body_010.scad / .stl
+011   90 Degree Fastener                     ?         Robot_Body_011.scad / .stl
+012   65 Degree Fastener                     ?         Robot_Body_012.scad / .stl
+013   Small Washer                           ?         Robot_Body_013.scad / .stl
+014   Large Washer                           ?         Robot_Body_014.scad / .stl
+015   Large 90 Degree Fastener               4         Robot_Body_015.scad / .stl
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+MANUFACTURING INSTRUCTIONS
+
+Detailed instructions for manufacturing each part are included in the .scad file for each part.
+----------------------------------------------------------------------------------------------------
