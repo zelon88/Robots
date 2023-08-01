@@ -4,10 +4,23 @@ PROJECT INFORMATION
 NAME:  Robot Body
 REVISION:  A1
 START DATE:  7/4/2023
-CURRENT VERSION DATE:  7/12/2023
+CURRENT VERSION DATE:  8/1/2023
 LICENSE:  GPLv3
 AUTHOR:  Justin Grimes (@zelon88)
-DESCRIPTION:  A body for tracked robot.
+DESCRIPTION:  A body for tracked robot. 
+REQUIREMENTS:  
+     Must fit onto a "Swaytail Premium Large Metal 4WD" chassis.
+     Must be 3D printable in multiple modular pieces.
+     Must be able to absorb multiple high velocity impacts.
+     Must be easy to assemble, maintain & repair.
+     Must provide attachment points for various sensors & attachments.
+     Must provide a top-mounted turret ring for simply installation of large augmentations.
+     Must provide support for powered rotation of the turret ring.
+     Must provide protection to vital electronic components from kinetic damage.
+     Must provide some splash resistance, but is not required to be water-proof.
+     Must provide some EMF resistance, but is not required to be EMF-proof.
+     Must provide enough internal volume to accomodate at lest two full-size Raspberry Pi computers.
+     Must provide a mounting solution with charging accomodations for three "DURA12-1.3F" batteries.
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------

@@ -1,0 +1,37 @@
+----------------------------------------------------------------------------------------------------
+PROJECT INFORMATION
+
+NAME:  Robot Body
+REVISION:  A1
+START DATE:  7/4/2023
+CURRENT VERSION DATE:  8/1/2023
+LICENSE:  GPLv3
+AUTHOR:  Justin Grimes (@zelon88)
+DESCRIPTION:  A body for tracked robot. 
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+This file contains a changelog for commits to this project.
+This file gets updated whenever a commit is made to the repository.
+Sometimes these commits result in a change in the official "REVISION" of the project, but not always.
+During the initial design phase, the revision will remain unchanged.
+After a prototype for a revision has been produced any changes will result in a "REVISION" change. 
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+8/1/2023 - A1 - Continue developing initial design.
+
+-A1.
+-Add this changelog.
+-Make parts into "Modules" and call them by reference.
+  -This fixes the problem of things looking weird when you combine things like "Rotate" or "Scale" with "Include".
+  -The "Rotate" or "Scale" will only apply to the first volume in the included file. NOT the entire file as a whole.
+  -To fix this, wrap all the code in a file in a module.
+  -When you want to include something that you plan on manipulating, turn it into a module first.
+-Changed offset of mating surfaces on Robot_Body_006.
+-Finish work on Robot_Body_007.
+-Change Robot_Body_Assembly so that each side is offset the correct amount to dictate width.
+-The sides are offset by different amounts to accomodate the thickness of the material, currently 0.25.
+  -This model assumes imperial units.
+  -Fun Fact: STL's don't care about units of measure. So if you import these STLs as metric they will seem very small.
+----------------------------------------------------------------------------------------------------
