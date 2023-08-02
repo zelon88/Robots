@@ -4,7 +4,7 @@
 // NAME:  Robot Body
 // REVISION:  A1
 // START DATE:  7/4/2023
-// CURRENT VERSION DATE:  7/12/2023
+// CURRENT VERSION DATE:  8/1/2023
 // LICENSE:  GPLv3
 // AUTHOR:  Justin Grimes (@zelon88)
 // DESCRIPTION:  A body for tracked robot.
@@ -18,6 +18,8 @@
 // START DATE:  7/4/2023
 // CURRENT VERSION DATE:  7/12/2023
 // AUTHOR:  Justin Grimes (@zelon88)
+// CONSTRUCTION METHOD:  3D Printed
+// MATERIALS REQUIRED:  PLA or ABS Filament
 // DESCRIPTION:  
 //    The side front section of body for a tracked robot.
 // FILE NAME: Robot_Body_003.scad
@@ -34,12 +36,9 @@
 // ----------------------------------------------------------------------------------------------------
 
 // ----------------------------------------------------------------------------------------------------
-// MODULES
-
-// ----------------------------------------------------------------------------------------------------
-
-// ----------------------------------------------------------------------------------------------------
 // GEOMETRY
+
+module Robot_Body_003 () { 
 
 // Front Section.
 difference() { 
@@ -93,5 +92,9 @@ difference() {
 
   // Front Track Cutout.
   translate([15.375, 0.25, 1.5]) rotate([0, 160, 180]) cube([2, 0.25, 2]);
-  translate([15.375, 0.25, 1.5]) rotate([0, 96, 180]) cube([2, 0.25, 5.75]); }
+  translate([15.375, 0.25, 1.5]) rotate([0, 96, 180]) cube([2, 0.25, 5.75]); } }
+
+// Render the object. 
+// Comment or uncomment as needed.
+//Robot_Body_003();
 // ----------------------------------------------------------------------------------------------------

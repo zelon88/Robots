@@ -18,6 +18,18 @@ During the initial design phase, the revision will remain unchanged.
 After a prototype for a revision has been produced any changes will result in a "REVISION" change. 
 ----------------------------------------------------------------------------------------------------
 
+
+----------------------------------------------------------------------------------------------------
+8/1/2023 - A1, A1 - Start working on the other side.
+
+-Project Revision:  A1
+-Parts Revision:  A1
+-Start working on the other side of the body.
+-Mirroring some things, like text, does not work well.
+  -Lots of manual repositioning, which is less than ideal.
+  -Luckily the design of the fasteners allows for large, flexible tolerances. 
+----------------------------------------------------------------------------------------------------
+
 ----------------------------------------------------------------------------------------------------
 8/1/2023 - A1 - Continue developing initial design.
 
