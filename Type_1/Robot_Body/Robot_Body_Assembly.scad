@@ -74,7 +74,7 @@ translate([0, -2.9375, 0]) Robot_Body_003();
 translate([0, 2.6875, 0]) Robot_Body_003();
 
 // ----------
-// Upper Side Rear Section.
+// Upper Side Rear Right Section.
 // Robot_Body_004.scad
 include <Robot_Body_004.scad>;
 // Right-Hand Side.
@@ -82,7 +82,7 @@ include <Robot_Body_004.scad>;
 translate([0, -2.9375, 0]) Robot_Body_004();
 
 // ----------
-// Upper Side Middle Rear Section.
+// Upper Side Middle Rear Right Section.
 // Robot_Body_005.scad
 include <Robot_Body_005.scad>;
 // Right-Hand Side.
@@ -90,7 +90,7 @@ include <Robot_Body_005.scad>;
 translate([0, -2.9375, 0]) Robot_Body_005();
 
 // ----------
-// Upper Side Middle Front Section.
+// Upper Side Middle Front Right Section.
 // Robot_Body_006.scad
 include <Robot_Body_006.scad>;
 // Right-Hand Side.
@@ -98,10 +98,26 @@ include <Robot_Body_006.scad>;
 translate([0, -2.9375, 0]) Robot_Body_006();
 
 // ----------
-// Upper Side Front Section.
+// Upper Side Front Right Section.
 // Robot_Body_007.scad
 include <Robot_Body_007.scad>;
 // Right-Hand Side.
 // Y-Offset is width of (5.375 / 2) + Material thickness of 0.25.
 translate([0, -2.9375, 0]) Robot_Body_007();
+
+// ----------
+// Upper Side Rear Left Section.
+// Robot_Body_016.scad
+include <Robot_Body_016.scad>;
+// Right-Hand Side.
+// Y-Offset is width of (5.375 / 2) + Material thickness of 0.25.
+translate([0, 2.9375, 0]) Robot_Body_016();
+
+// ----------
+// Upper Side Middle Rear Left Section.
+// Robot_Body_017.scad
+include <Robot_Body_017.scad>;
+// Right-Hand Side.
+// Y-Offset is width of (5.375 / 2) + Material thickness of 0.25.
+translate([0, 2.9375, 0]) Robot_Body_017();
 // ----------------------------------------------------------------------------------------------------
